@@ -1,0 +1,33 @@
+# Operating System Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# IDE Configurations
+# =========================
+.idea/
+*.iml
+*.iws
+.vscode/
+
+# Backend (Java / Maven / Spring Boot)
+# =========================
+backend/target/
+*.class
+*.jar
+*.war
+*.log
+
+# ML Model & Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.env
+
+# Datasets (Keep repo size small)
+# =========================
+*.csv
+*.tsv
